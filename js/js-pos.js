@@ -292,15 +292,15 @@ $("#tr_submit").on("click", function (e) {
     form_data.append("moneychanges", moneychanges);
     form_data.append("tr_submit", "");
     var memberstatus = true;
-    if($("#tr_payment_method2").is(':checked') && ($("#tr_memberid").length < 1 || $("#tr_membername").length < 1)){
+    if($("#tr_member2").is(':checked') && ($("#tr_memberid").val() == "" || $("#tr_membername").val() == "")){
         memberstatus = false;
     }
     
     
-    if (moneychanges < 0) {
-        alert("Payment less than Total!")
-    } else if(!memberstatus){
+    if(!memberstatus){
         alert("Member Id need to fill!")        
+    }else if (moneychanges < 0) {
+        alert("Payment less than Total!")
     } else {
 
         $.ajax({
