@@ -3,7 +3,7 @@
 //Config is the page for define any function to used in the systems.
 
 //----------------------------configure the database-----------------------------//
-DEFINE("BASE_URL", "https://koperasi-bahtera.com/");
+DEFINE("BASE_URL", "https://jspos.my.id/");
 DEFINE("SUB_URL", "");
 DEFINE("FILE_LOG", "log.txt");
 //----------------------------End of configure the database-----------------------------//

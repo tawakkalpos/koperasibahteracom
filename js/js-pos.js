@@ -296,7 +296,6 @@ $("#tr_submit").on("click", function (e) {
         memberstatus = false;
     }
     
-    
     if(!memberstatus){
         alert("Member Id need to fill!")        
     }else if (moneychanges < 0) {
