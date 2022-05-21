@@ -38,40 +38,40 @@
     include($config->getView("modal"));
     ?>
     <!-- Bootstrap core JavaScript-->  
-    <script src="https://koperasibahtera.com/vendor/jquery/jquery.min.js"></script>
-    <script src="https://koperasibahtera.com/vendor/jquery/jquery.form.js"></script>
-    <script src="https://koperasibahtera.com/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/jquery/jquery.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/jquery/jquery.form.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Image creator core JavaScript-->
-    <script src="https://koperasibahtera.com/vendor/jquery/html2canvas.min.js"></script>
-    <script src="https://koperasibahtera.com/vendor/jquery/canvas2image.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/jquery/html2canvas.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/jquery/canvas2image.js"></script>
     <!-- Core plugin JavaScript-->
-    <script src="https://koperasibahtera.com/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="https://koperasibahtera.com/vendor/jquery/jquery-ui.js"></script>    
+    <script src="https://koperasi-bahtera.com/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/jquery/jquery-ui.js"></script>    
     <!-- <script src="vendor/jquery/push.min.js"></script>     -->
-    <!-- <script src="https://koperasibahtera.com/vendor/jquery/serviceWorker.min.js"></script>    
-    <script src="https://koperasibahtera.com/vendor/jquery/jquery-confirm.min.js"></script> -->
+    <!-- <script src="https://koperasi-bahtera.com/vendor/jquery/serviceWorker.min.js"></script>    
+    <script src="https://koperasi-bahtera.com/vendor/jquery/jquery-confirm.min.js"></script> -->
     <!-- Custom scripts for all pages-->
     
     
     
     <script src="<?= BASE_URL ?>js/main.js"></script>
     <script src="<?= BASE_URL ?>js/js-pos.js"></script>
-    <script src="https://koperasibahtera.com/vendor/chart.js/Chart.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/chart.js/Chart.min.js"></script>
     <script src="<?= BASE_URL ?>js/demo/chart-area.js"></script>
-    <script src="https://koperasibahtera.com/vendor/jquery/jspdf.min.js"></script>
-    <script src="https://koperasibahtera.com/vendor/jquery/jspdf.plugin.autotable.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/jquery/jspdf.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/jquery/jspdf.plugin.autotable.min.js"></script>
     <!-- Page level plugins -->
-    <script src="https://koperasibahtera.com/vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="https://koperasibahtera.com/vendor/datatables/dataTables.bootstrap4.min.js"></script>
-    <script src="https://koperasibahtera.com/vendor/cloudflare/dataTables.buttons.min.js"></script>
-    <script src="https://koperasibahtera.com/vendor/cloudflare/buttons.flash.min.js"></script>
-    <script src="https://koperasibahtera.com/vendor/cloudflare/jszip.min.js"></script>
-    <script src="https://koperasibahtera.com/vendor/cloudflare/pdfmake.min.js"></script>
-    <script src="https://koperasibahtera.com/vendor/cloudflare/vfs_fonts.js"></script>
-    <script src="https://koperasibahtera.com/vendor/cloudflare/buttons.html5.min.js"></script>
-    <script src="https://koperasibahtera.com/vendor/cloudflare/buttons.print.min.js"></script>
-    <script src="https://koperasibahtera.com/vendor/cloudflare/moment.min.js"></script>
-    <script src="https://koperasibahtera.com/vendor/cloudflare/browser-image-compression.js"></script> 
+    <script src="https://koperasi-bahtera.com/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/cloudflare/dataTables.buttons.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/cloudflare/buttons.flash.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/cloudflare/jszip.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/cloudflare/pdfmake.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/cloudflare/vfs_fonts.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/cloudflare/buttons.html5.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/cloudflare/buttons.print.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/cloudflare/moment.min.js"></script>
+    <script src="https://koperasi-bahtera.com/vendor/cloudflare/browser-image-compression.js"></script> 
 
     </body>
 
