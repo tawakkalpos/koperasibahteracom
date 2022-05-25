@@ -101,7 +101,7 @@ $config = new mConfig();
                     <?php
                     }
                     ?>
-                    <div class="sidebar-brand-text mx-3 text-primary">K-MART</div>
+                    <div class="sidebar-brand-text mx-3 text-primary">YOUR COMPANY NAME</div>
                     
                     <?php
                     if ($page == BASE_URL) {
