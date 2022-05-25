@@ -14,7 +14,7 @@ $config = new mConfig();
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>POINT OF SALES - K-MART</title>
+    <title>JAYA KASIR</title>
     <link rel="icon" href="<?= BASE_URL; ?>img/logo.png">
 
     <!-- Custom fonts for this template-->
@@ -133,11 +133,19 @@ $config = new mConfig();
                                     <span class="text d-none d-lg-inline">Login</span>
                                 </a>
                             </li>
+                            
+                        <div class="topbar-divider d-none d-sm-block"></div>
 
+                            <li class="nav-item mx-auto">
+                                <a id="btn-register" class="btn btn-primary btn-icon-split text-light">
+                                    <span class="icon text-white-50">
+                                        <i class="fa fa-cog fa-sm"></i>
+                                    </span>
+                                    <span class="text d-none d-lg-inline">Register</span>
+                                </a>
+                            </li>
                         <?php
                         } else {
-
-
                             //Check user can access to 'User Setting menu'
                             if ($config->checkaccess("systemsetting")) {
                                 $setting = '<a class="dropdown-item" href="' . BASE_URL . 'systemsetting/">

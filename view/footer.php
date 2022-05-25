@@ -2,7 +2,7 @@
     <footer class="sticky-footer bg-white">
         <div class="container my-auto">
             <div class="copyright text-center my-auto">
-                <span>Copyright &copy; JS POS <?= date("Y") ?></span>
+                <span>Copyright &copy; JAKA.ID <?= date("Y") ?></span>
             </div>
         </div>
         <iframe name="upload-frame" id="upload-frame" class="d-none"></iframe>
