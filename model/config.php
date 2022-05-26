@@ -75,6 +75,9 @@ class mConfig
                     require $this->getView("footer");
                     exit;
                 }
+            } else if($this->loadpage() == "userregister"){
+                print "Register New User";
+            
             } else {
                 include($this->getModel("database"));
                 include($this->getContoller("config"));

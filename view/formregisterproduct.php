@@ -24,9 +24,6 @@ $config = new mConfig();
                     <div class="input-group input-group-sm mb-2">
                         <input type="text" class="form-control" name="pr_category" id="pr_category">
                         <ul id="category_result" class="dropdown-menu w-100 mt-0">
-                            <li>A</li>
-                            <li>A</li>
-                            <li>A</li>
                         </ul>
                     </div>
                 </div>

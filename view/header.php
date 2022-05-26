@@ -106,12 +106,12 @@ $config = new mConfig();
                     <?php
                     if ($page == BASE_URL) {
                         ?>
-                                <a href="<?=BASE_URL?>summary/" class="btn btn-primary btn-icon-split text-light ml-2" >
-                                    <span class="icon text-white-50">
-                                        <i class="fas fa-desktop fa-sm"></i>
-                                    </span>
-                                    <span class="text d-inline">POS App</span>
-                                </a>
+                        <a href="<?=BASE_URL?>summary/" class="btn btn-primary btn-icon-split text-light ml-2" >
+                            <span class="icon text-white-50">
+                                <i class="fas fa-desktop fa-sm"></i>
+                            </span>
+                            <span class="text d-inline">POS App</span>
+                        </a>
                     <?php
                     }
                     ?>
@@ -137,9 +137,9 @@ $config = new mConfig();
                         <div class="topbar-divider d-none d-sm-block"></div>
 
                             <li class="nav-item mx-auto">
-                                <a id="btn-register" class="btn btn-primary btn-icon-split text-light">
+                                <a href="<?= BASE_URL ?>userregister/" id="btn-register" class="btn btn-primary btn-icon-split text-light">
                                     <span class="icon text-white-50">
-                                        <i class="fa fa-cog fa-sm"></i>
+                                        <i class="fa fa-user-cog fa-sm"></i>
                                     </span>
                                     <span class="text d-none d-lg-inline">Register</span>
                                 </a>
