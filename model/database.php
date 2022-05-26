@@ -3,7 +3,7 @@
 DEFINE("DB_SERVER", "localhost");
 DEFINE("DB_USER", "kopt6583_root");
 DEFINE("DB_PASS", "Bismillah2022");
-DEFINE("DB_NAME", "kopt6583_jspos");
+DEFINE("DB_NAME", "kopt6583_jakaid");
 
 //define table name
 DEFINE("TB_USER", "user");
