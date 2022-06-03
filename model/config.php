@@ -50,8 +50,9 @@ class mConfig
         }
 
         if ($file_location !== "") {
-
-            if (file_exists($file_location)) {
+            if($this->loadpage() == "userregister"){
+                print "Register New User";
+            } else if (file_exists($file_location)) {
                 include($this->getModel("database"));
                 include($this->getContoller("config"));
                 //check user access
@@ -75,8 +76,6 @@ class mConfig
                     require $this->getView("footer");
                     exit;
                 }
-            } else if($this->loadpage() == "userregister"){
-                print "Register New User";
             
             } else {
                 include($this->getModel("database"));

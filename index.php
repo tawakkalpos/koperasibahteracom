@@ -6,6 +6,8 @@ require "model/config.php";
 $config = new mConfig();
 $config->htaccess();
 ?>
+
+TEST JOKO UPDATE
 <!-- Begin Page Content -->
 <div class="container-fluid" style="min-height: 80vh;">
 <div id="slideshow" class="carousel slide shadow" data-ride="carousel">
