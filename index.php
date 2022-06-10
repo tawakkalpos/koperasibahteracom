@@ -7,24 +7,19 @@ $config = new mConfig();
 $config->htaccess();
 ?>
 
-TEST JOKO UPDATE
 <!-- Begin Page Content -->
 <div class="container-fluid" style="min-height: 80vh;">
 <div id="slideshow" class="carousel slide shadow" data-ride="carousel">
         <ul class="carousel-indicators">
             <li data-target="#slideshow" data-slide-to="0" class="active"></li>
-            <li data-target="#slideshow" data-slide-to="1"></li>
+            <!--<li data-target="#slideshow" data-slide-to="1"></li>-->
         </ul>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="<?= BASE_URL ?>img/home/img_1.jpg" class="w-100">
             </div>
-            <div class="carousel-item">
-                <img src="<?= BASE_URL ?>img/home/img_2.jpg" class="w-100">
-            </div>
-            </div>
+            
         </div>
-        </a>
     </div>
 </div>
 <!-- End of Main Content -->
