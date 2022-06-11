@@ -16,7 +16,7 @@ $config->htaccess();
         </ul>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/home/img_1.jpg" class="w-100">
+                <img src="<?=BASE_URL ?>img/home/img_1.jpg" class="w-100">
             </div>
             
         </div>
