@@ -54,6 +54,7 @@ class mConfig
                 include($this->getModel("database"));
                 include($this->getContoller("config"));
                 require $this->getView("header");
+                include($file_location);
                 require $this->getView("footer");
                 exit;
             } else if (file_exists($file_location)) {
